@@ -48,9 +48,10 @@ async function sellEth(ethAmount, daiAmount) {
   }
 
   // Perform Swap
-  console.log('Performing swap...')
-  let result = await exchangeContract.methods.ethToTokenSwapInput(daiAmount.toString(), DEADLINE).send(SETTINGS)
-  console.log(`Successful Swap: https://ropsten.etherscan.io/tx/${result.transactionHash}`)
+//  console.log('Performing swap...')
+//  let result = await exchangeContract.methods.ethToTokenSwapInput(daiAmount.toString(),
+//  DEADLINE).send(SETTINGS)
+//  console.log(`Successful Swap: https://ropsten.etherscan.io/tx/${result.transactionHash}`)
 }
 
 async function checkBalances() {
